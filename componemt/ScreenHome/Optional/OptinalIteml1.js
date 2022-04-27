@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         borderColor: '#fff',
         justifyContent:'center',
         alignItems:'center',
-        marginTop:20
+        marginTop:22
     },
     Texts:{
         fontWeight:'bold',

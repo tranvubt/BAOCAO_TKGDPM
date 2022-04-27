@@ -27,10 +27,10 @@
           <Optional/>
         </View>
         <View >
-          <PostsList/>
-          <PostsList/>
-          <PostsList/>
-          <PostsList/>
+          <PostsList navigation={props.navigation}/>
+          <PostsList navigation={props.navigation}/>
+          <PostsList navigation={props.navigation}/>
+          <PostsList navigation={props.navigation}/>
         </View>
       </ScrollView>
     </View>
@@ -42,7 +42,6 @@ const styles = StyleSheet.create({
     width:"100%",
     height:"100%",
     backgroundColor:'#f7f7f7',
-    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
  },
  scroll:{
   width:380,

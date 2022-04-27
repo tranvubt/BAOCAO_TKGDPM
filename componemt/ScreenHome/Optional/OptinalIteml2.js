@@ -4,7 +4,7 @@ export default function OptinalIteml2(props){
     return(
         <View style={styles.Container}>
             <TouchableOpacity style={styles.Buttons}>
-                <Text style={{fontWeight:'bold', color:'#ffa825'}}>Đặt phòng</Text>
+                <Text style={{fontWeight:'bold', color:'#ffa825'}}>Nạp điểm thành viên</Text>
             </TouchableOpacity>
         </View>
     )
